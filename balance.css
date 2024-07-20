@@ -1,0 +1,25 @@
+#balance{
+    width: 100%;
+    height: 100vh;
+}
+
+.balance-container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height :100%;
+}
+
+.balance{
+    display : grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 48px;
+    column-gap: 100px;
+}
+
+.balance-title, .balance-subtitle{
+    text-align: start;
+    margin-bottom: 24px;
+    font-size: 36px;
+    color: blue;
+}
